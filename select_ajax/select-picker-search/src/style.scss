@@ -1,0 +1,11 @@
+$muted: #6c757d;
+
+body {
+  margin: 2rem 0rem;
+  
+  label {
+    color: $muted;
+    display: block;
+    margin-top: 2rem;
+  }
+}

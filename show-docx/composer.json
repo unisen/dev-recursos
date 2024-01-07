@@ -1,0 +1,45 @@
+{
+    "description": "This repository contains GroupDocs.Viewer Cloud SDK for PHP source code.",
+    "name": "groupdocscloud/groupdocs-viewer-cloud",
+    "version": "23.10",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "groupdocs",
+        "viewer",
+        "cloud",
+        "api",
+        "php",
+        "sdk"
+    ],
+    "homepage": "https://github.com/groupdocs-viewer-cloud/groupdocs-viewer-cloud-php",
+    "authors": [
+        {
+            "name": "GroupDocs",
+            "homepage": "https://github.com/groupdocs-viewer-cloud"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "8.1"
+        }
+    },
+    "require": {
+        "php": ">=8.1",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^6.5.8|^7.4.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0.0"
+    },
+    "autoload": {
+        "classmap": [ "src/" ],
+        "psr-4": { "GroupDocs\\Viewer\\" : "src/" }
+    },
+    "autoload-dev": {
+        "classmap": [ "src/", "tests/" ],
+        "psr-4": { "GroupDocs\\Viewer\\" : "tests/" }
+    }
+}

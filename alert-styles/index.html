@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>jQuery UI Dialog - Default functionality</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link rel="stylesheet" href="/resources/demos/style.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $(function() {
+            $("#dialog").dialog();
+        });
+    </script>
+
+    <style>
+        .ui-dialog-titlebar.ui-corner-all.ui-widget-header.ui-helper-clearfix.ui-draggable-handle {
+            border: 1px solid #dddddd;
+            background: #3c4434;
+            color: #ffffff;
+            font-weight: bold;
+        }
+        
+        .ui-widget.ui-widget-content {
+            border: 1px solid #D1E7A7;
+        }
+        
+        #alert-sistema {
+            background: #D1E7A7;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="dialog" title="Basic dialog">
+        <p>
+            This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.
+        </p>
+    </div>
+
+    <div id="alert-sistema" title="Usuário não Registrado"></div>
+
+    <button type="button" onclick="myAlert('alert-sistema','Esta é uma mensagem de teste, do Tchunai!')">
+      Click!
+    </button>
+
+    <script>
+        function myAlert(id, msg) {
+            var id_alert = "#" + id;
+            var janela = $(id_alert);
+            msg = "<p>" + msg + "</p>";
+            janela.html(msg);
+            janela.dialog();
+        }
+    </script>
+</body>
+
+</html>

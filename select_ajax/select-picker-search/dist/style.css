@@ -1,0 +1,8 @@
+body {
+  margin: 2rem 0rem;
+}
+body label {
+  color: #6c757d;
+  display: block;
+  margin-top: 2rem;
+}

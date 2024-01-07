@@ -1,0 +1,11 @@
+
+
+ID do cliente
+618305121474-am5u2rlum73928leqsmkrtmoe1a1mg07.apps.googleusercontent.com
+Chave secreta do cliente
+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
+Data da criação
+22 de dezembro de 2023 08:34:57 GMT-3
+Status
+Ativada
+

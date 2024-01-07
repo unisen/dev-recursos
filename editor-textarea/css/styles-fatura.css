@@ -1,0 +1,176 @@
+        body {
+            font-size: 10px;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        th.titulo-fatura {
+            height: 70px;
+            width: 50%;
+            text-align: left;
+        }
+        
+        th.empresa-fatura {
+            text-align: left;
+            padding-left: 100px;
+            font-size: 11px;
+        }
+        
+        td.cliente-fatura {
+            padding: 5px;
+            padding-left: 10px;
+            width: 50%;
+            text-align: left;
+            border: 1px dotted rgb(196, 196, 196);
+            background-color: rgb(243, 243, 243);
+        }
+        
+        .logo-fatura {
+            margin-left: 20px;
+        }
+
+        .logo-fatura img {
+            width: 60%;
+        }
+        
+        .corpo-pedido {
+            text-align: justify;
+            padding: 2px;
+            font-size: 13px;
+            font-weight: 400;
+        }
+        
+        th.unidade {
+            width: 20px;
+            padding-right: 10px;
+            text-align: center;
+        }
+        
+        td.unit {
+            text-align: center;
+        }
+        
+        th.preco {
+            width: 75px;
+        }
+        
+        th.quantidade {
+            width: 75px;
+        }
+        
+        th.descitem {
+            width: 75px;
+        }
+        
+        th.subtotal {
+            width: 120px;
+        }
+        
+        th.titulo-celula span {
+            font-size: 12px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        
+        th.titulo-celula {
+            background-color: rgb(243, 243, 243);
+        }
+        
+        td.titulo-celula {
+            background-color: rgb(243, 243, 243);
+        }
+        
+        table.num_pedido {
+            background-color: rgb(243, 243, 243);
+        }
+        
+        table.num_pedido th {
+            background-color: rgb(196, 196, 196);
+            width: 35%;
+            padding-left: 5px;
+        }
+        
+        span.dados-empresa {
+            font-weight: 350;
+            font-size: 12.5px;
+        }
+        
+        span.nome-empresa-sistema {
+            font-size: 13px;
+            text-transform: uppercase;
+        }
+        
+        table.num_pedido td {
+            border-bottom: 1px dotted rgb(243, 243, 243);
+            padding: 8px;
+        }
+        
+        table.num_pedido {
+            padding: 10px;
+        }
+        
+        table.vendedor-celula {
+            padding: 8px;
+            background-color: rgb(243, 243, 243);
+        }
+        
+        table.vendedor-celula th {
+            width: 30px;
+        }
+        
+        table.vendedor-celula td {
+            padding-left: 10px;
+        }
+        
+        table.itens-do-pedido th {
+            background-color: grey;
+            color: #fff;
+        }
+        
+        td.coluna1sub {
+            width: 45%;
+        }
+        
+        td.coluna2sub {
+            padding: 8px;
+        }
+        
+        table.valores_subtotais th,
+        table.valores_subtotais td {
+            border-bottom: 1px dotted rgb(189, 189, 189);
+            border-top: 1px dotted rgb(189, 189, 189);
+        }
+        
+        table.valores_subtotais {
+            border-bottom: 2px solid rgb(94, 94, 94);
+        }
+        
+        table.valor_total {
+            border-bottom: 2px solid rgb(94, 94, 94);
+            font-size: 12px;
+        }
+        
+        th.coluna1total {
+            width: 60%;
+        }
+        
+        td.coluna2total {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        
+        table.observacoes {
+            border: 1px dotted rgb(189, 189, 189);
+        }
+        
+        table.rodape-fatura {
+            text-align: center;
+        }
+
+        span.titulo-clausula {
+            top: 18px;
+            font-weight: bold;
+        }
